@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психологическая игра ТРИГГЕР | Иван Плетнёв</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --card-bg: #161616;
+            --accent-gold: #d4af37;
+            --text-main: #ffffff;
+            --text-secondary: #b3b3b3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid var(--accent-gold);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: var(--accent-gold);
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            display: block;
+            background: transparent;
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            padding: 18px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+        }
+
+        .btn:hover {
+            background: var(--accent-gold);
+            color: #000;
+        }
+
+        .btn-primary {
+            background: var(--accent-gold);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            background: #f1c40f;
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .info-item {
+            background: var(--card-bg);
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 12px;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://via.placeholder.com/120" alt="Иван Плетнёв" class="profile-img">
+    
+    <h1>Иван Плетнёв</h1>
+    <div class="subtitle">Психолог • Ведущий игры «ТРИГГЕР»</div>
+
+    <p class="description">
+        Найдите то, что вас тормозит. Бережная провокация, которая меняет жизнь за один день. Один из 14 официальных ведущих в РФ.
+    </p>
+
+    <a href="https://pletnev-ivan.timepad.ru/event/3831042/" class="btn btn-primary">Записаться: САРАТОВ</a>
+    <a href="https://pletnev-ivan.timepad.ru/event/3831005/" class="btn btn-primary">Записаться: ВОЛГОГРАД</a>
+    
+    <a href="https://t.me/Ivanpletnev87" class="btn">Задать вопрос в Telegram</a>
+
+    <div class="info-grid">
+        <div class="info-item">
+            <strong>6 ЧАСОВ</strong><br>глубокой работы
+        </div>
+        <div class="info-item">
+            <strong>БЕЗОПАСНО</strong><br>этично и анонимно
+        </div>
+        <div class="info-item">
+            <strong>РЕЗУЛЬТАТ</strong><br>план действий
+        </div>
+        <div class="info-item">
+            <strong>3-6 ЧЕЛОВЕК</strong><br>в группе
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2024 Психологическая игра «Триггер»
+    </div>
+</div>
+
+</body>
+</html>
